@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "sessionSaver",
+    "version": "1.0",
+    
+    "description": "Save the session so that it can be opened in another machine. Or maybe sync it using Firefox sync or share it as a json file. The session saved can replace or be appended to an existing session."
+    "homepage_url": "https://github.com/tpb261/FFsessionOps/",
+    "icons": {
+        "48": "icons/beasts-48.png"
+    },
+    
+    "permissions": [
+        "activeTab" # might not be sufficient
+    ],
+    
+    "browser_action": {
+        "default_icon": "icons/tbd.png",
+        "default_title": "SessionOps",
+        "default_popup": "popup/choose_file.html"
+    },
+    
+    "web_accessible_resources": [
+        "beasts/frog.jpg",
+        "beasts/turtle.jpg",
+        "beasts/snake.jpg"
+    ]
+    
+}
